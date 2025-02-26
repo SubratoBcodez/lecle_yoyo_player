@@ -222,7 +222,7 @@ class _YoYoPlayerState extends State<YoYoPlayer> with SingleTickerProviderStateM
   bool fullScreen = false;
 
   /// Menu show
-  bool showMenu = false;
+  bool showMenu = true;
 
   /// Auto show subtitle
   bool showSubtitles = false;
