@@ -199,7 +199,7 @@ class _PlayerBottomBarState extends State<PlayerBottomBar> {
                                 margin: const EdgeInsets.only(bottom: 16.0),
                                 child: widget.videoStyle.volumeIcon ??
                                     Icon(
-                                      Icons.volume_up,
+                                      Icons.fullscreen_outlined,
                                       color: widget.videoStyle.forwardIconColor,
                                       size: widget.videoStyle.forwardAndBackwardBtSize,
                                     ),
